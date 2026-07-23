@@ -1,5 +1,18 @@
 @import "theme.css";
 
+.sec-html {
+  position: relative;
+  z-index: 9999;
+  background: var(--zz-bg);
+}
+
+.sec-html::before {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  content: "";
+  background: rgb(0 0 0 / 30%);
+}
 
 /*==================================================
 =              ENQUÊTES - LAYOUT                   =
