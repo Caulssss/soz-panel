@@ -3,32 +3,48 @@
   --zz-ov: #494949;
   --zz-fg: #ffffff;
   --zz-res: #ef4444;
+  --zz-header: linear-gradient(135deg, #4a4a4a, #3c3c3c);
+  --zz-card-bg: #494949;
+  --zz-category-hover: #ffffff;
+  --zz-subcategories: #555555;
 }
 
-.bg-\[\#3c3c3c\],
 .sec-html:has(.sasp) {
   --zz-bg: #3c3c3c;
   --zz-ov: #494949;
   --zz-fg: #ffc777;
+  --zz-header: linear-gradient(135deg, #695227, #3c3c3c);
+  --zz-card-bg: #5a4b34;
+  --zz-category-hover: #ffe0a1;
+  --zz-subcategories: #5a4b34;
 }
 
-.bg-\[\#191b28\],
 .sec-html:has(.lspd) {
   --zz-bg: #191b28;
   --zz-ov: #232638;
   --zz-fg: #7981ac;
+  --zz-header: linear-gradient(135deg, #1E3A5F, #20252b);
+  --zz-card-bg: #273449;
+  --zz-category-hover: #93C5FD;
+  --zz-subcategories: #273449;
 }
 
-.bg-\[\#203028\],
 .sec-html:has(.bcso) {
   --zz-bg: #203028;
   --zz-ov: #2a3f35;
   --zz-fg: #88af9a;
+  --zz-header: linear-gradient(135deg, #355946, #203028);
+  --zz-card-bg: #30463d;
+  --zz-category-hover: #b4d9c2;
+  --zz-subcategories: #30463d;
 }
 
-.bg-\[\#432222\],
 .sec-html:has(.mdr) {
   --zz-bg: #432222;
   --zz-ov: #552e36;
   --zz-fg: #aa5c6c;
+  --zz-header: linear-gradient(135deg, #6a3643, #432222);
+  --zz-card-bg: #5b3840;
+  --zz-category-hover: #d78ea0;
+  --zz-subcategories: #5b3840;
 }
