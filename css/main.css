@@ -1,7 +1,6 @@
 @import "theme.css";
 @import "fullscreen.css";
 @import "summary.css";
-@import "category.css";
 
 .sec-html {
   position: relative;
@@ -78,9 +77,7 @@
   background-color: #434343;
 }
 
-/*==================================================
-=              ENQUÊTES - LAYOUT                   =
-==================================================*/
+
 
 .header{
     background:var(--zz-header);
@@ -108,9 +105,7 @@
     background:#25202a;
 }
 
-/*==================================================
-=                    SUMMARY                       =
-==================================================*/
+
 
 summary{
     cursor:pointer;
@@ -135,9 +130,7 @@ details[open] > summary::before{
     transform:rotate(90deg);
 }
 
-/*==================================================
-=                 CATEGORY                    =
-==================================================*/
+
 
 .category{
     background:none;
@@ -161,9 +154,6 @@ details[open] > summary::before{
 }
 
 
-/*==================================================
-=              COMPOSANTS ENQUÊTE                  =
-==================================================*/
 
 .plainte,
 .audition,
