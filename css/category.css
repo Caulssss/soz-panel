@@ -1,0 +1,38 @@
+/*==================================================
+=                    CATEGORY                      =
+==================================================*/
+
+.custom-html-style h2 > input[type="checkbox"]{
+    display:none;
+}
+
+.custom-html-style h2 > input[type="checkbox"] + label{
+    display:block;
+    padding:10px 15px;
+
+    cursor:pointer;
+
+    color:var(--zz-fg);
+
+    font-size:1.4em;
+    font-weight:600;
+
+    transition:.2s;
+}
+
+.custom-html-style h2 > input[type="checkbox"] + label:hover{
+    color:var(--zz-category-hover);
+}
+
+.custom-html-style
+div:has(> h2 > input[type="checkbox"]){
+
+    margin:0;
+    padding:0;
+}
+
+.custom-html-style
+div:has(> h2 > input[type="checkbox"]:not(:checked))
+> *:not(h2){
+    display:none;
+}
